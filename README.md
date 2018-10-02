@@ -6,9 +6,10 @@ Connecting to Your Instance from Windows or Linux/OSX Using PuTTY.
 >Note: This section is for Linux and Max OSX users only. If you are running Windows but have not yet connected to your instance, go back to previous step. If you have already connected to your instance, skip ahead to next step.
 
 1. To connect to your EC2 instance, run the following commands in Terminal:
-	
-	chmod 400  <path and name of pem>
-	ssh –i <path and name of pem> ec2-user@<public IP>
+```
+chmod 400  <path and name of pem>
+ssh –i <path and name of pem> ec2-user@<public IP>
+```
 
 * For **path and name of pem**, substitute the path/filename to the .pem file you downloaded.
 * For **public IP**, substitute the public IP address for your **Web Server** instance which you copied into a text editor earlier in the lab.
